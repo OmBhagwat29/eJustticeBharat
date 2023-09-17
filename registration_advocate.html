@@ -73,16 +73,45 @@
 
               <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
                 <div class="mb-3">
-                  <label for="username" class="form-label">Username</label>
+                  <label for="username" class="form-label">Name</label>
                   <input
                     type="text"
                     class="form-control"
                     id="username"
                     name="username"
-                    placeholder="Enter your username"
+                    placeholder="Enter your Name"
                     autofocus
                   />
                 </div>
+
+                <div class="mb-3">
+                  <label class="form-label" for="country">Court</label>
+                            <select id="country" class="select2 form-select">
+                              <option value="">Select</option>
+                              <option value="Australia">State</option>
+                              <option value="Bangladesh">National</option>
+                              
+                             
+                            </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="country">Bar Association</label>
+                            <select id="country" class="select2 form-select">
+                              <option value="">Select</option>
+                              <option value="Australia">State Bar</option>
+                              <option value="Bangladesh">National Bar</option>
+                              <option value="Belarus">Country Bar</option>
+                              <option value="Brazil">City Bar</option>
+                             
+                            </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="address" class="form-label">Bar License Number</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Bar License Number" />
+                </div>
+
+
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
                   <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />

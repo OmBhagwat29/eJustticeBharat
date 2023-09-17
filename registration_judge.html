@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>User Registration | eJusticeBharat</title>
+    <title>Advocate Registration | eJusticeBharat</title>
 
     <meta name="description" content="" />
 
@@ -68,11 +68,10 @@
                 </a>
               </div>
               <!-- /Logo -->
-              <h4 class="mb-2">User Registration</h4>
+              <h4 class="mb-2">Judge Registration</h4>
               <p class="mb-4" style="color: red;">Password is incorrect</p>
 
               <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
-                
                 <div class="mb-3">
                   <label for="username" class="form-label">Name</label>
                   <input
@@ -84,10 +83,37 @@
                     autofocus
                   />
                 </div>
-                
+
+                <div class="mb-3">
+                  <label class="form-label" for="country">Court</label>
+                            <select id="country" class="select2 form-select">
+                              <option value="">Select</option>
+                              <option value="Australia">State</option>
+                              <option value="Bangladesh">National</option>
+                              
+                             
+                            </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="country">Court</label>
+                            <select id="country" class="select2 form-select">
+                              <option value="">Select</option>
+                              <option value="Australia">State</option>
+                              <option value="Bangladesh">National</option>
+                             
+                             
+                            </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="address" class="form-label">Bar License Number</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Bar License Number" />
+                </div>
+
+
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" />
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
                 </div>
                 <div class="mb-3 form-password-toggle">
                   <label class="form-label" for="password">Password</label>
@@ -113,7 +139,7 @@
                     </label>
                   </div>
                 </div>
-                <button class="btn btn-primary d-grid w-100">Register</button>
+                <button class="btn btn-primary d-grid w-100">Sign up</button>
               </form>
 
               <p class="text-center">
